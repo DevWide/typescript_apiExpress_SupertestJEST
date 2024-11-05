@@ -1,0 +1,34 @@
+# Ignora a pasta node_modules com as dependências instaladas
+node_modules/
+
+# Ignora os arquivos de saída compilados do TypeScript
+dist/
+
+# Ignora arquivos de log
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Ignora configurações locais do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignora arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Ignora cache do Jest
+jest-cache/
+jest-output/
+
+# Ignora configurações do editor (opcional, depende do uso)
+.vscode/
+.idea/
+
+# Ignora pasta temporária do TypeScript
+*.tsbuildinfo
+
+# Ignora o output do coverage do Jest
+coverage/
